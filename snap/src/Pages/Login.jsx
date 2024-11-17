@@ -15,7 +15,7 @@ function Login() {
 
   return (
     <div className="flex items-center justify-center h-screen bg-[#4cb2da79]">
-      <div className="bg-white p-6 rounded-lg h-[400px] shadow-md w-[500px]">
+      <div className="bg-white p-6 rounded-lg h-[400px] w-[330px] shadow-md md:w-[500px]">
       <div>
         <Link to="/">
           <img src={logo}  className='' alt=''></img>
