@@ -14,11 +14,11 @@ function Register() {
     console.log('Password:', password);
   };
   return (
-    <div className="flex items-center justify-center  bg-[#4cb2da79]">
+    <div className="flex items-center justify-center bg-[#4cb2da79]">
     <div className="bg-white p-4 rounded-lg shadow-md w-[800px]">
       <div>
         <Link to="/">
-          <img src={logo}  className='' alt=''></img>
+          <img src={logo}  className='mt-[1rem]' alt=''></img>
         </Link>
       </div>
 
