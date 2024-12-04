@@ -14,9 +14,9 @@ function Login() {
   };
 
   return (
-    <div className="flex items-center justify-center h-screen bg-[#4cb2da79]">
-      <div className="bg-white p-6 rounded-lg h-[460px] w-[350px] sm:w-[600px]  shadow-md xl:w-[1200px] xl:h-[500px] md:w-[600px] lg:w-[800px] md:h-[500px]">
-        <div className='xl:mt-[5rem]'>
+    <div className="flex items-center justify-center h-screen lg:h-screen sm:h-full md:h-screen  bg-[#4cb2da79]">
+      <div className="bg-white p-6 rounded-lg h-[460px] w-[350px] sm:w-[600px]  shadow-md xl:w-[1200px] xl:h-[500px] md:w-[600px] lg:w-[800px] ">
+        <div className='xl:mt-[3rem]'>
           <div>
             <Link to="/">
               <img src={logo}  className='mt-[1rem]' alt=''></img>
