@@ -8,7 +8,7 @@ function Homepage() {
 
 
   return (
-    <div className='sm:h-full h-full bg-[#4cb2da79] '>
+    <div className='sm:h-screen h-full md:h-screen lg:h-screen bg-[#4cb2da79] '>
 
       <div className='mx-auto px-4 py-6 justify-between  flex items-center '>
 
